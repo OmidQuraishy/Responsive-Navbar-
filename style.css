@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+body{
+    background-color: #0ec5dd;
+}
+
+nav{
+    background-color: #167e80;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    text-transform: capitalize;
+    transition:background .4s ease-in;
+}
+
+nav ul li a:hover{
+    background-color: #4c9ca7;
+}
+
+
+
+/* mobile size  */
+
+@media (max-width:700px){
+    nav ul li{
+        display: block;
+        text-align: center;
+    }
+    nav ul li a{
+        display: block;
+    }
+}
